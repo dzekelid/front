@@ -1,0 +1,147 @@
+{
+	"name": "Streadata.io API Gallery - Front",
+	"description": "This is a repository of front APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/front.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-27",
+	"url": "http://front.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Urban Airship",
+			"x-api-slug": "urban-airship",
+			"description": "A market-leading mobile app engagement, mobile analytics, mobile data integration and mobile wallet marketing solution.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/75-urban-airship.jpg",
+			"humanURL": "http://urbanairship.com/",
+			"baseURL": "https://go.urbanairship.com//api/",
+			"tags": "Front",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/front/master/_listings/urban-airship/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Twilio",
+			"x-api-slug": "twilio",
+			"description": "Cloud communications platform for building SMS, Voice & Messaging applications on an API built for global scale. Get started with a free trial.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/143-twilio.jpg",
+			"humanURL": "http://www.twilio.com",
+			"baseURL": "https://api.twilio.com//2010-04-01/",
+			"tags": "Front",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/front/master/_listings/twilio/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Xignite",
+			"x-api-slug": "xignite",
+			"description": "Financial market data on-demand. Xignite financial Web services help build smarter websites and applications in minutes with zero up-front investment.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png",
+			"humanURL": "http://www.xignite.com",
+			"baseURL": "https://www.xignite.com/xVWAP.json/XigniteVWAP",
+			"tags": "Front",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/front/master/_listings/xignite/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Instructure",
+			"x-api-slug": "instructure",
+			"description": "Instructure makes software that makes smarter people. Products include Canvas LMS, Bridge and Canvas Network.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg",
+			"humanURL": "http://instructure.com",
+			"baseURL": "https://canvas.instructure.com//api/v1",
+			"tags": "Front",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/front/master/_listings/instructure/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS CloudFront",
+			"x-api-slug": "aws-cloudfront",
+			"description": "Amazon CloudFront is a global content delivery network (CDN) service that accelerates delivery of your websites, APIs, video content or other web assets. It integrates with other Amazon Web Services products to give developers and businesses an easy way to accelerate content to end users with no minimum usage commitments.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Storage-Content-Delivery_AmazonCloudFront.png",
+			"humanURL": "https://aws.amazon.com/cloudfront/",
+			"baseURL": ":///",
+			"tags": "Front",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/front/master/_listings/aws-cloudfront/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS WAF",
+			"x-api-slug": "aws-waf",
+			"description": "AWS WAF is a web application firewall that helps protect your webapplications from common web exploits that could affect applicationavailability, compromise security, or consume excessive resources. AWSWAF gives you control over which traffic to allow or block to your webapplications by defining customizable web security rules. You can use AWSWAF to create custom rules that block common attack patterns, such as SQLinjection or cross-site scripting, and rules that are designed for your specific application. New rules can be deployed within minutes, letting you respondquickly to changing traffic patterns. Also, AWS WAF includes a full-featuredAPI that you can use to automate the creation, deployment, and maintenanceof web security rules.With AWS WAF you pay only for what you use. AWS WAF pricing is based on how many rules you deploy and how many web requests your web application receives. There are no upfront commitments.You can deploy AWS WAF on either Amazon CloudFront as part of your CDN solution or the Application Load Balancer (ALB) that fronts your web servers or origin servers running on EC2.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSWAF.png",
+			"humanURL": "https://aws.amazon.com/waf/",
+			"baseURL": ":///",
+			"tags": "Front",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/front/master/_listings/aws-waf/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Avaza",
+			"x-api-slug": "avaza",
+			"description": "Avaza is a beautiful online software suite with modules for Project Management, Timesheets, Expenses &amp; Invoicing. Access from anywhere, with any device. Avaza is the leading all-in-one software for running client focused businesses. Avaza allows businesses of all sizes to more easily and effectively manage team projects, time tracking, expense reporting, quoting &amp; invoicing. It can be accessed simply via a web browser from anywhere in the world on any device.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28373-avaza.jpg",
+			"humanURL": "https://www.avaza.com",
+			"baseURL": "https:///",
+			"tags": "Front",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/front/master/_listings/avaza/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Front",
+	"include": [
+		{
+			"name": "Urban Airship",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/front/master/_listings/urban-airship/apis.yaml"
+		},
+		{
+			"name": "Twilio",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/front/master/_listings/twilio/apis.yaml"
+		},
+		{
+			"name": "Xignite",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/front/master/_listings/xignite/apis.yaml"
+		},
+		{
+			"name": "Instructure",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/front/master/_listings/instructure/apis.yaml"
+		},
+		{
+			"name": "AWS CloudFront",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/front/master/_listings/aws-cloudfront/apis.yaml"
+		},
+		{
+			"name": "AWS WAF",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/front/master/_listings/aws-waf/apis.yaml"
+		},
+		{
+			"name": "Avaza",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/front/master/_listings/avaza/apis.yaml"
+		}
+	]
+}

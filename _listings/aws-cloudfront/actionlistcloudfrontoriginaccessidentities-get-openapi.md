@@ -1,9 +1,11 @@
+---
 swagger: "2.0"
 x-collection-name: AWS CloudFront
-x-complete: 1
+x-complete: 0
 info:
-  title: AWS CloudFront API
+  title: AWS CloudFront API List Cloud Front Origin Access Identities
   version: 1.0.0
+  description: Lists origin access identities.
 schemes:
 - http
 produces:
@@ -200,155 +202,17 @@ paths:
       - Origin
       - Access
       - Identities
-  /?Action=UpdateCloudFrontOriginAccessIdentity:
-    get:
-      summary: Update Cloud Front Origin Access Identity
-      description: Update an origin access identity.
-      operationId: updateCloudFrontOriginAccessIdentity
-      x-api-path-slug: actionupdatecloudfrontoriginaccessidentity-get
-      parameters:
-      - in: query
-        name: Description
-        description: A description for the EBS snapshot
-        type: string
-      - in: query
-        name: DestinationRegion
-        description: The destination region to use in the PresignedUrl parameter of
-          a snapshot copy      operation
-        type: string
-      - in: query
-        name: DryRun
-        description: Checks whether you have the required permissions for the action,
-          without actually making the      request, and provides an error response
-        type: string
-      - in: query
-        name: Encrypted
-        description: Specifies whether the destination snapshot should be encrypted
-        type: string
-      - in: query
-        name: Id
-        description: The identitys id
-        type: string
-      - in: query
-        name: If-Match
-        description: The value of the ETag header that you received when retrieving
-          the      identitys configuration
-        type: string
-      - in: query
-        name: KmsKeyId
-        description: The full ARN of the AWS Key Management Service (AWS KMS) CMK
-          to use when creating the snapshot copy
-        type: string
-      - in: query
-        name: PresignedUrl
-        description: The pre-signed URL that facilitates copying an encrypted snapshot
-        type: string
-      - in: query
-        name: SourceRegion
-        description: The ID of the region that contains the snapshot to be copied
-        type: string
-      - in: query
-        name: SourceSnapshotId
-        description: The ID of the EBS snapshot to copy
-        type: string
-      responses:
-        200:
-          description: OK
-      tags:
-      - Cloud
-      - Front
-      - Origin
-      - Access
-      - Identity
-  /?Action=ListTagsForResource:
-    get:
-      summary: List Tags For Resource
-      description: List tags for a CloudFront resource.
-      operationId: listTagsForResource
-      x-api-path-slug: actionlisttagsforresource-get
-      parameters:
-      - in: query
-        name: DhcpOptionsId
-        description: The ID of the DHCP options set
-        type: string
-      - in: query
-        name: DryRun
-        description: Checks whether you have the required permissions for the action,
-          without actually making the request,        and provides an error response
-        type: string
-      - in: query
-        name: Resource
-        description: An ARN of a CloudFront resource
-        type: string
-      responses:
-        200:
-          description: OK
-      tags:
-      - List
-      - Tags
-      - Resource
-  /?Action=TagResource:
-    get:
-      summary: Tag Resource
-      description: Add tags to a CloudFront resource.
-      operationId: tagResource
-      x-api-path-slug: actiontagresource-get
-      parameters:
-      - in: query
-        name: DhcpOptionsId.N
-        description: The IDs of one or more DHCP options sets
-        type: string
-      - in: query
-        name: DryRun
-        description: Checks whether you have the required permissions for the action,
-          without actually making the request,        and provides an error response
-        type: string
-      - in: query
-        name: Filter.N
-        description: One or more filters
-        type: string
-      - in: query
-        name: Resource
-        description: An ARN of a CloudFront resource
-        type: string
-      responses:
-        200:
-          description: OK
-      tags:
-      - Tag
-      - Resource
-  /?Action=UntagResource:
-    get:
-      summary: Untag Resource
-      description: Remove tags from a CloudFront resource.
-      operationId: untagResource
-      x-api-path-slug: actionuntagresource-get
-      parameters:
-      - in: query
-        name: Device
-        description: The device name to expose to the instance (for example, /dev/sdh
-          or        xvdh)
-        type: string
-      - in: query
-        name: DryRun
-        description: Checks whether you have the required permissions for the action,
-          without actually making the      request, and provides an error response
-        type: string
-      - in: query
-        name: InstanceId
-        description: The ID of the instance
-        type: string
-      - in: query
-        name: Resource
-        description: An ARN of a CloudFront resource
-        type: string
-      - in: query
-        name: VolumeId
-        description: The ID of the EBS volume
-        type: string
-      responses:
-        200:
-          description: OK
-      tags:
-      - Untag
-      - Resource
+x-streamrank:
+  polling_total_time_average: 0
+  polling_size_download_average: 0
+  streaming_total_time_average: 0
+  streaming_size_download_average: 0
+  change_yes: 0
+  change_no: 0
+  time_percentage: 0
+  size_percentage: 0
+  change_percentage: 0
+  last_run: ""
+  days_run: 0
+  minute_run: 0
+---
